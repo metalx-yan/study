@@ -34,6 +34,12 @@ Route::get('/about', function () {
 //supaya tidak mrubah path
 //->name('kontak');
 
+Route::get('home/{gas}', 'CobaController@gaspol')->name('gaspol');
+Route::get('home', 'CobaController@home')->name('home');
+Route::get('about', 'CobaController@about')->name('about');
+Route::get('contact', 'CobaController@contact')->name('contact');
+
+
 
 
 

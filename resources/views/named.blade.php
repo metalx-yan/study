@@ -5,9 +5,12 @@
     <title></title>
   </head>
   <body>
-    <h1> <a href="{{ route('kontak') }}"> Test </h1>
-    <h1> <a href="{{ route('hallo', 'a', '123') }}"> Test </h1>
+    {{-- <h1> <a href="{{ route('kontak') }}"> Test </h1> --}}
+    <h1> <a href="{{ route('hallo', 'd', '123') }}"> Test </h1>
 
+
+      <h1> <a href="{{ route('hallo', 'd', '123') }}"> Test </h1>
+    
 
 
 
